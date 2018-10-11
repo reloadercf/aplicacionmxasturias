@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "106875619271",
+    "firebase_url": "https://mxasturias01.firebaseio.com",
+    "project_id": "mxasturias01",
+    "storage_bucket": "mxasturias01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106875619271:android:336246e0d70f21e4",
+        "android_client_info": {
+          "package_name": "com.mxasturias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106875619271-rlnncv86t9k2hv3ntetp55r42uhk4nrm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mxasturias",
+            "certificate_hash": "4ae36117e8bd7657966a602c9d39a30fb71deb2d"
+          }
+        },
+        {
+          "client_id": "106875619271-fbesd26hgcg4nbt3i0mssdajn6i50c2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBILWHHz9faBjG4dZpyhSv7conCcctadUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106875619271-fbesd26hgcg4nbt3i0mssdajn6i50c2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
