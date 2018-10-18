@@ -6,10 +6,13 @@ import {StyleSheet, Image} from 'react-native';
 import {createDrawerNavigator, DrawerItems} from 'react-navigation'
 
 import HomePage from './Layout/HomePage'
-//import DetailPage from './Layout/DetailPage'
+import CategoryPage from './Layout/CategoryPage'
 import DirectorioPage from './Layout/DirectorioPage'
 
 export default class App extends Component {
+
+
+
   render() {
     return (
       <StyleProvider style={getTheme(material)}>
@@ -26,25 +29,24 @@ const CustomDrawerComponent=(props) =>(
       </Body>
     </Header>
     <Content>
-      <DrawerItems {...props}/>
+      <DrawerItems {...props} />
     </Content>
   </Container>
 )
 
 
+
+const objeto={
+  Inicio:HomePage,
+  Directorio:DirectorioPage,
+  Deporte:CategoryPage,
+  Salud:CategoryPage,
+  Vida:CategoryPage
+}
 const MyApp=createDrawerNavigator(
+   objeto,
+
   {
-   
-    Inicio:{
-      screen:HomePage
-    },
-    Directorio:{
-      screen:DirectorioPage
-    }
-
-
-
-  },{
     initialRouteName: 'Inicio',
     contentComponent: CustomDrawerComponent,
     drawerPosition: 'left',

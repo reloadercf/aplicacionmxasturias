@@ -14,11 +14,11 @@ class HeaderPage extends Component {
                         >
                             <Icon name="ios-menu" style={styles.icon}/>
                         </Button>
-                        <Button transparent active={true} >
+                        <Button transparent active={true}  onPress={() => this.props.navigation.navigate('Inicio')} >
                             <Icon active={true} name="home" style={styles.icon} />
                             <Text>Inicio</Text>
                         </Button>
-                        <Button transparent active={true} >
+                        <Button transparent active={true}   onPress={() => this.props.navigation.navigate('Directorio')}>
                             <Icon active={true} name="apps" style={styles.icon} />
                             <Text>Directorio</Text>
                         </Button>
